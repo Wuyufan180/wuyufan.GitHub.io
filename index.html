@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴宇凡 - 土地资源管理博士生 | 生态系统服务研究者</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        /* 导航栏 */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        /* 主容器 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* 头部区域 */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            margin-bottom: 3rem;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+
+        .hero .tags {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .social-links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* 内容区域 */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+
+        /* 卡片风格 */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .card ul {
+            margin-left: 1.5rem;
+            color: #666;
+        }
+
+        .card li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* 技术栈 */
+        .tech-category {
+            margin-bottom: 2rem;
+        }
+
+        .tech-category h4 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .tech-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* 研究方向 */
+        .research-item {
+            background: white;
+            padding: 1.5rem;
+            border-left: 4px solid #667eea;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .research-item h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .research-item p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        /* 页脚 */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* 动画 */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .card:nth-child(1) { animation-delay: 0.1s; }
+        .card:nth-child(2) { animation-delay: 0.2s; }
+        .card:nth-child(3) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-brand">🌍 吴宇凡</a>
+            <ul class="nav-links">
+                <li><a href="#research">研究方向</a></li>
+                <li><a href="#tech">技术栈</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 头部 -->
+    <div class="hero">
+        <div class="container">
+            <h1>👋 欢迎！</h1>
+            <p class="subtitle">土地资源管理博士生 | 生态系统服务研究者 | 农产品贸易分析师</p>
+            <div class="tags">
+                <span class="tag">🌍 全球农业系统</span>
+                <span class="tag">💧 虚拟水与环保</span>
+                <span class="tag">📊 大数据应用</span>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Wuyufan180">GitHub</a>
+                <a href="mailto:2024209019@stu.njau.edu.cn">📧 邮箱</a>
+                <a href="https://scholar.google.com">Google Scholar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 个人简介 -->
+    <div class="container">
+        <section id="intro">
+            <h2>📖 关于我</h2>
+            <p style="font-size: 1.1rem; color: #555; line-height: 2;">
+                我是一名土地资源管理专业的在读博士生，致力于探索全球农业系统中的复杂生态与经济联系。
+                通过空间分析、遥感技术和大数据方法，我研究农产品贸易如何影响全球生态系统，
+                以及如何实现农业、食物与环境的和谐发展。
+            </p>
+        </section>
+
+        <!-- 研究方向 -->
+        <section id="research">
+            <h2>🚀 研究方向</h2>
+            <div class="research-item">
+                <h4>🌍 全球生态系统服务评估</h4>
+                <p>量化与制图生态系统服务的空间分布与时空变化，为环境决策提供支撑。</p>
+            </div>
+            <div class="research-item">
+                <h4>🌾 农产品跨境贸易</h4>
+                <p>分析国际农产品贸易流动、比较优势与市场动态，理解全球食物供应链。</p>
+            </div>
+            <div class="research-item">
+                <h4>💧 虚拟水与隐含环境影响</h4>
+                <p>追踪农产品贸易中的虚拟水、碳足迹与其他隐含环保指标的流动。</p>
+            </div>
+            <div class="research-item">
+                <h4>🔗 远程耦合环境影响</h4>
+                <p>研究农产品贸易链中生产地与消费地的生态环境相互作用。</p>
+            </div>
+            <div class="research-item">
+                <h4>📊 地球大数据应用</h4>
+                <p>利用遥感影像、大数据与空间信息技术支撑生态环保研究。</p>
+            </div>
+        </section>
+
+        <!-- 技术栈 -->
+        <section id="tech">
+            <h2>🛠️ 技术栈与工具</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>💻 编程与数据分析</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">R</span>
+                        <span class="tech-tag">MATLAB</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>🗺️ 地理信息与遥感</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">ArcGIS</span>
+                        <span class="tech-tag">QGIS</span>
+                        <span class="tech-tag">Google Earth Engine</span>
+                        <span class="tech-tag">SNAP</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>📦 数据库与工具</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">PostGIS</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Jupyter</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 核心项目 -->
+        <section id="projects">
+            <h2>💼 核心项目</h2>
+            <div class="card">
+                <h3>🌾 农产品贸易的远程耦合环境影响研究</h3>
+                <p style="margin-bottom: 1rem;"><strong>研究内容：</strong></p>
+                <ul style="margin-bottom: 1rem;">
+                    <li>定量分析主要农产品国际贸易中的虚拟水流动</li>
+                    <li>评估农产品生产与贸易对生源地生态系统的影响</li>
+                    <li>揭示贸易驱动的跨界环境压力转移机制</li>
+                    <li>建立适应性的政策评估框架</li>
+                </ul>
+                <p style="margin-bottom: 1rem;"><strong>研究方法：</strong></p>
+                <ul>
+                    <li>空间分析与地理信息系统 (GIS)</li>
+                    <li>生命周期评估 (LCA)</li>
+                    <li>投入产出分析 (I-O 分析)</li>
+                    <li>虚拟水足迹核算与水资源评估</li>
+                    <li>统计分析与数据可视化</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact">
+            <h2>💬 合作与交流</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>📧 邮箱</h3>
+                    <p><a href="mailto:2024209019@stu.njau.edu.cn" style="color: #667eea; text-decoration: none;">2024209019@stu.njau.edu.cn</a></p>
+                </div>
+                <div class="card">
+                    <h3>🐱 GitHub</h3>
+                    <p><a href="https://github.com/Wuyufan180" style="color: #667eea; text-decoration: none;">github.com/Wuyufan180</a></p>
+                </div>
+                <div class="card">
+                    <h3>🔗 学术平台</h3>
+                    <p><a href="https://scholar.google.com" style="color: #667eea; text-decoration: none;">Google Scholar</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 推荐资源 -->
+        <section id="resources">
+            <h2>📚 推荐学术资源</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>📊 数据平台</h3>
+                    <ul>
+                        <li><a href="http://www.fao.org/faostat/" style="color: #667eea; text-decoration: none;">FAOSTAT</a> - 联合国粮农组织数据</li>
+                        <li><a href="https://earthdata.nasa.gov/" style="color: #667eea; text-decoration: none;">NASA EARTHDATA</a> - 遥感数据门户</li>
+                        <li><a href="https://earthengine.google.com/" style="color: #667eea; text-decoration: none;">Google Earth Engine</a> - 云端地理计算</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🔨 开源工具</h3>
+                    <ul>
+                        <li><a href="https://www.qgis.org/" style="color: #667eea; text-decoration: none;">QGIS</a> - 开源 GIS 软件</li>
+                        <li><a href="https://geopandas.org/" style="color: #667eea; text-decoration: none;">GeoPandas</a> - Python 空间数据</li>
+                        <li><a href="https://python-visualization.github.io/folium/" style="color: #667eea; text-decoration: none;">Folium</a> - 地图可视化</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>📖 学术期刊</h3>
+                    <ul>
+                        <li>Global Food Security</li>
+                        <li>Land Use Policy</li>
+                        <li>Ecological Economics</li>
+                        <li>Journal of Cleaner Production</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>🌍 共同探索人类与自然的和谐之路</p>
+        <p style="color: #aaa; font-size: 0.9rem;">© 2026 吴宇凡 | 南京农业大学 土地资源管理专业</p>
+    </footer>
+</body>
+</html>
