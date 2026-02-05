@@ -1,26 +1,144 @@
-# Research Information
+# 欢迎！👋
 
-## Research Directions
-- Ecosystem services
-- Agricultural trade
-- Virtual water
-- Remote coupling environmental impacts
+<div align="center">
 
-## Current Projects
-- Investigating the impact of ecosystem services on agricultural trade.
-- Analyzing the virtual water trade and its implications on water resources management.
+**土地资源管理博士生 | 生态系统服务研究者 | 农产品贸易与环境影响分析师**
 
-## Technical Tools
-- Geographic Information Systems (GIS)
-- Remote Sensing Tools
-- Data Analysis Software (R, Python)
+研究全球生态系统服务、跨境农产品贸易与虚拟水/隐含环境影响
 
-## Academic Resources
-- Relevant Journals specializing in Environmental Science, Agriculture, and Trade.
-- Online databases for accessing research articles and reports.
+[GitHub](https://github.com/Wuyufan180) · [Google Scholar](#) · [个人网站](#) · [邮箱](#)
 
-## Collaboration Interests
-- Seeking collaborations related to ecosystem services and sustainability.
-- Interested in multi-disciplinary projects involving agriculture and environmental studies.
+</div>
 
-Contact: 2024209019@stu.njau.edu.cn
+---
+
+## 🚀 研究方向
+
+我是一名土地资源管理专业的在读博士生，致力于探索全球农业系统中的复杂生态与经济联系。
+
+### 主要研究领域
+
+- 🌍 **全球生态系统服务评估** - 量化与制图生态系统服务的空间分布与时空变化
+- 🌾 **农产品跨境贸易** - 分析国际农产品贸易流动、比较优势与市场动态
+- 💧 **虚拟水与隐含环境影响** - 追踪农产品贸易中的虚拟水、碳足迹与其他隐含环保指标
+- 🔗 **远程耦合环境影响** - 研究农产品贸易链中生产地与消费地的生态环境相互作用
+- 📊 **地球大数据应用** - 利用遥感影像、大数据与空间信息技术支撑生态环保研究
+
+## 💼 当前研究
+
+### 核心项目：农产品贸易的远程耦合环境影响研究
+
+**研究内容：**
+- 定量分析主要农产品（粮食、果蔬、畜产品等）国际贸易中的虚拟水流动
+- 评估农产品生产与贸易对生源地生态系统的影响
+- 揭示贸易驱动的跨界环境压力转移机制
+- 建立适应性的政策评估框架
+
+**研究方法：**
+- 空间分析与地理信息系统 (GIS)
+- 生命周期评估 (LCA)
+- 投入产出分析 (I-O 分析)
+- 虚拟水足迹核算与水资源评估
+- 统计分析与数据可视化
+
+## 🛠️ 技术栈与工具
+
+### 编程与数据分析
+- **Python** - 数据处理、空间分析、机器学习
+- **R** - 统计分析、数据可视化、建模
+- **MATLAB** - 数值计算与模型开发
+- **JavaScript** - 数据交互与可视化展示
+
+### 地理信息与遥感
+- ArcGIS & QGIS - 空间数据处理与制图
+- Google Earth Engine - 大规模遥感数据分析
+- SNAP - 遥感影像处理
+
+### 数据库与工具
+- PostgreSQL & PostGIS - 空间数据库
+- Git & GitHub - 版本控制与协作
+- Jupyter Notebook - 交互式科研笔记
+
+### 数据来源
+- FAOSTAT - 农产品生产与贸易数据
+- NASA MODIS - 遥感影像数据
+- 各国统计数据库 - 农业与水文数据
+
+## 📊 研究成果
+
+### 发表论文
+- *[发表或在投论文题目及期刊信息](#)*
+- *[发表或在投论文题目及期刊信息](#)*
+
+### 数据集与工具
+- [农产品贸易虚拟水核算数据集](#) - 全球范围内主要农产品虚拟水含量的空间数据
+- [生态系统服务评估工具](#) - 基于开源 GIS 平台的评估框架
+
+### 会议报告
+- [国际学术会议报告](#)
+- [学术论坛分享](#)
+
+## 🌱 学术背景
+
+- **博士研究生** - 土地资源管理专业
+- **研究方向** - 全球农业系统中的生态环境问题
+- **学术兴趣** - 生态经济学、资源管理、可持续发展、环境地理学
+
+## 🎯 研究目标
+
+- 深化对全球农业系统生态环境影响的理解
+- 为政策制定提供科学依据，支持农业可持续发展
+- 促进学科交叉，整合生态学、经济学、地理学的研究视角
+- 贡献于全球粮食安全与生态安全的平衡
+
+## 💬 合作与交流
+
+我热衷于与同行交流和合作：
+
+- 🤝 **学术合作** - 参与生态系统服务、农产品贸易相关研究项目
+- 💡 **学术讨论** - 探讨虚拟水、食物安全、可持续发展等话题
+- 📖 **知识分享** - 分享 GIS、遥感、大数据在生态研究中的应用经验
+- 🎓 **学术交流** - 参加国际学术会议与研讨会
+
+**欢迎通过以下方式与我联系：**
+- 📧 邮箱：[2024209019@stu.njau.edu.cn](mailto:2024209019@stu.njau.edu.cn)
+- 🔗 Google Scholar：[你的学术档案](#)
+- 💼 ResearchGate：[你的研究主页](#)
+- 🐦 Twitter/X：[@YourHandle](#)
+
+## 📚 推荐资源
+
+### 数据平台
+- [FAOSTAT](http://www.fao.org/faostat/) - 联合国粮农组织数据
+- [NASA EARTHDATA](https://earthdata.nasa.gov/) - 遥感数据门户
+- [Google Earth Engine](https://earthengine.google.com/) - 云端地理计算平台
+
+### 开源工具
+- [QGIS](https://www.qgis.org/) - 开源 GIS 软件
+- [GeoPandas](https://geopandas.org/) - Python 空间数据库
+- [Folium](https://python-visualization.github.io/folium/) - Python 地图可视化
+
+### 学术资源
+- 主流期刊：*Global Food Security*, *Land Use Policy*, *Ecological Economics*, *Journal of Cleaner Production*
+- 学术组织：国际地理联合会、生态学会、资源与环境研究所
+
+## 🏆 致力于
+
+- ♻️ **可持续发展** - 推动农业、食物与环境的和谐发展
+- 🌍 **全球视野** - 理解全球尺度上的生态经济联系
+- 📊 **数据驱动** - 用数据说话，为决策提供科学支撑
+- 🤲 **社会责任** - 研究关系到全球粮食安全和生态安全
+
+---
+
+<div align="center">
+
+**感谢访问我的学术档案！**
+
+在这里，我分享我的研究进展、数据集、代码工具与学术思考。如果你对生态系统服务、农产品贸易或环境影响研究感兴趣，欢迎交流与合作！
+
+**共同探索人类与自然的和谐之路** 🌍🌱
+
+![个人资料访问量](https://komarev.com/ghpvc/?username=Wuyufan180)
+
+</div>
