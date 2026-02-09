@@ -1,144 +1,79 @@
-# 欢迎！👋
+<!--
+This repository is your GitHub Pages site.
+README.md is for the repo landing page; for the website content, edit the site files (e.g., index.html).
+-->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=170&section=header&text=%E5%90%B4%E6%98%B1%E5%87%A1%20%7C%20Wuyufan%20Wu&fontSize=42&fontAlignY=35&desc=PhD%20Student%20%7C%20Ecosystem%20Services%20%7C%20Agri-trade%20%26%20Embedded%20Impacts&descAlignY=58" />
+</p>
 
 <div align="center">
 
-**土地资源管理博士生 | 生态系统服务研究者 | 农产品贸易与环境影响分析师**
+**土地资源管理博士生 | 生态系统服务 | 农产品贸易与隐含环境影响（虚拟水/碳足迹等）**
 
-研究全球生态系统服务、跨境农产品贸易与虚拟水/隐含环境影响
+<a href="https://wuyufan180.github.io/">个人网站</a> ·
+<a href="https://github.com/Wuyufan180">GitHub</a> ·
+<a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ">Google Scholar</a> ·
+<a href="mailto:2024209019@stu.njau.edu.cn">邮箱</a>
 
-[GitHub](https://github.com/Wuyufan180) · [Google Scholar](#) · [个人网站](#) · [邮箱](#)
+<br/>
+
+<img alt="Research" src="https://img.shields.io/badge/Research-Ecosystem%20Services-0ea5e9?style=flat" />
+<img alt="Trade" src="https://img.shields.io/badge/Trade-Agri--food%20Supply%20Chains-22c55e?style=flat" />
+<img alt="Footprints" src="https://img.shields.io/badge/Footprints-Virtual%20Water%20%7C%20Carbon-64748b?style=flat" />
 
 </div>
 
 ---
 
-## 🚀 研究方向
+## 一句话介绍
+我关注**全球农业系统**中的生态与经济联系，研究跨境农产品贸易如何驱动**生态系统服务变化**与**环境压力的跨区域转移**（虚拟水、碳足迹及其他隐含影响）。
 
-我是一名土地资源管理专业的在读博士生，致力于探索全球农业系统中的复杂生态与经济联系。
+## 研究方向（Research Areas）
+- **全球生态系统服务评估**：量化与制图，关注时空变化与不确定性。
+- **农产品跨境贸易与远程耦合**：从生产地到消费地的链路视角，识别驱动机制。
+- **虚拟水与隐含环境影响核算**：水足迹/碳足迹等指标的贸易嵌入与归因。
+- **地球大数据与空间分析**：遥感、GIS、空间统计与可视化。
 
-### 主要研究领域
+## 当前研究（Current Work）
+**核心主题：农产品贸易的远程耦合环境影响**
+- 构建贸易链路上的虚拟水/碳等隐含影响核算框架
+- 评估贸易驱动的环境压力转移与关键节点
+- 形成可用于政策评估的指标体系与情景分析流程
 
-- 🌍 **全球生态系统服务评估** - 量化与制图生态系统服务的空间分布与时空变化
-- 🌾 **农产品跨境贸易** - 分析国际农产品贸易流动、比较优势与市场动态
-- 💧 **虚拟水与隐含环境影响** - 追踪农产品贸易中的虚拟水、碳足迹与其他隐含环保指标
-- 🔗 **远程耦合环境影响** - 研究农产品贸易链中生产地与消费地的生态环境相互作用
-- 📊 **地球大数据应用** - 利用遥感影像、大数据与空间信息技术支撑生态环保研究
+## 方法与工具（Methods & Tools）
+- **GIS / Spatial Analysis**：ArcGIS, QGIS, PostGIS
+- **Remote Sensing / GEE**：Google Earth Engine, SNAP
+- **LCA / IO / Footprint**：生命周期评估、投入产出、足迹核算
+- **Coding**：Python, R, MATLAB
 
-## 💼 当前研究
+<details>
+<summary><b>常用数据源与资源（可折叠）</b></summary>
 
-### 核心项目：农产品贸易的远程耦合环境影响研究
+- FAOSTAT（生产与贸易）
+- NASA MODIS 等遥感产品
+- 各国统计数据库（水文/农业/经济）
 
-**研究内容：**
-- 定量分析主要农产品（粮食、果蔬、畜产品等）国际贸易中的虚拟水流动
-- 评估农产品生产与贸易对生源地生态系统的影响
-- 揭示贸易驱动的跨界环境压力转移机制
-- 建立适应性的政策评估框架
+推荐工具：QGIS / GeoPandas / Folium 等
 
-**研究方法：**
-- 空间分析与地理信息系统 (GIS)
-- 生命周期评估 (LCA)
-- 投入产出分析 (I-O 分析)
-- 虚拟水足迹核算与水资源评估
-- 统计分析与数据可视化
+</details>
 
-## 🛠️ 技术栈与工具
+## 论文与成果（Publications）
+- 论文列表与引用指标请见：**Google Scholar**：https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ
+- 如果你希望在这里展示“精选论文 3-5 篇”，把论文题目或 DOI 发我，我可以整理成更好看的列表（含链接与一句话摘要）。
 
-### 编程与数据分析
-- **Python** - 数据处理、空间分析、机器学习
-- **R** - 统计分析、数据可视化、建模
-- **MATLAB** - 数值计算与模型开发
-- **JavaScript** - 数据交互与可视化展示
+## 合作与交流（Collaboration）
+- 生态系统服务评估、农产品贸易与隐含环境影响、远程耦合等方向欢迎交流合作。
 
-### 地理信息与遥感
-- ArcGIS & QGIS - 空间数据处理与制图
-- Google Earth Engine - 大规模遥感数据分析
-- SNAP - 遥感影像处理
-
-### 数据库与工具
-- PostgreSQL & PostGIS - 空间数据库
-- Git & GitHub - 版本控制与协作
-- Jupyter Notebook - 交互式科研笔记
-
-### 数据来源
-- FAOSTAT - 农产品生产与贸易数据
-- NASA MODIS - 遥感影像数据
-- 各国统计数据库 - 农业与水文数据
-
-## 📊 研究成果
-
-### 发表论文
-- *[发表或在投论文题目及期刊信息](#)*
-- *[发表或在投论文题目及期刊信息](#)*
-
-### 数据集与工具
-- [农产品贸易虚拟水核算数据集](#) - 全球范围内主要农产品虚拟水含量的空间数据
-- [生态系统服务评估工具](#) - 基于开源 GIS 平台的评估框架
-
-### 会议报告
-- [国际学术会议报告](#)
-- [学术论坛分享](#)
-
-## 🌱 学术背景
-
-- **博士研究生** - 土地资源管理专业
-- **研究方向** - 全球农业系统中的生态环境问题
-- **学术兴趣** - 生态经济学、资源管理、可持续发展、环境地理学
-
-## 🎯 研究目标
-
-- 深化对全球农业系统生态环境影响的理解
-- 为政策制定提供科学依据，支持农业可持续发展
-- 促进学科交叉，整合生态学、经济学、地理学的研究视角
-- 贡献于全球粮食安全与生态安全的平衡
-
-## 💬 合作与交流
-
-我热衷于与同行交流和合作：
-
-- 🤝 **学术合作** - 参与生态系统服务、农产品贸易相关研究项目
-- 💡 **学术讨论** - 探讨虚拟水、食物安全、可持续发展等话题
-- 📖 **知识分享** - 分享 GIS、遥感、大数据在生态研究中的应用经验
-- 🎓 **学术交流** - 参加国际学术会议与研讨会
-
-**欢迎通过以下方式与我联系：**
-- 📧 邮箱：[2024209019@stu.njau.edu.cn](mailto:2024209019@stu.njau.edu.cn)
-- 🔗 Google Scholar：[你的学术档案](#)
-- 💼 ResearchGate：[你的研究主页](#)
-- 🐦 Twitter/X：[@YourHandle](#)
-
-## 📚 推荐资源
-
-### 数据平台
-- [FAOSTAT](http://www.fao.org/faostat/) - 联合国粮农组织数据
-- [NASA EARTHDATA](https://earthdata.nasa.gov/) - 遥感数据门户
-- [Google Earth Engine](https://earthengine.google.com/) - 云端地理计算平台
-
-### 开源工具
-- [QGIS](https://www.qgis.org/) - 开源 GIS 软件
-- [GeoPandas](https://geopandas.org/) - Python 空间数据库
-- [Folium](https://python-visualization.github.io/folium/) - Python 地图可视化
-
-### 学术资源
-- 主流期刊：*Global Food Security*, *Land Use Policy*, *Ecological Economics*, *Journal of Cleaner Production*
-- 学术组织：国际地理联合会、生态学会、资源与环境研究所
-
-## 🏆 致力于
-
-- ♻️ **可持续发展** - 推动农业、食物与环境的和谐发展
-- 🌍 **全球视野** - 理解全球尺度上的生态经济联系
-- 📊 **数据驱动** - 用数据说话，为决策提供科学支撑
-- 🤲 **社会责任** - 研究关系到全球粮食安全和生态安全
+**联系：**
+- Email: [2024209019@stu.njau.edu.cn](mailto:2024209019@stu.njau.edu.cn)
+- Scholar: https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ
+- Website: https://wuyufan180.github.io/
 
 ---
 
 <div align="center">
 
-**感谢访问我的学术档案！**
-
-在这里，我分享我的研究进展、数据集、代码工具与学术思考。如果你对生态系统服务、农产品贸易或环境影响研究感兴趣，欢迎交流与合作！
-
-**共同探索人类与自然的和谐之路** 🌍🌱
-
-![个人资料访问量](https://komarev.com/ghpvc/?username=Wuyufan180)
+![Profile Views](https://komarev.com/ghpvc/?username=Wuyufan180&label=Profile%20views&color=0ea5e9&style=flat)
 
 </div>
