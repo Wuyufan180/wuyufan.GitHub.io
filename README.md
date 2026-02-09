@@ -59,8 +59,40 @@ README.md is for the repo landing page; for the website content, edit the site f
 </details>
 
 ## 论文与成果（Publications）
-- 论文列表与引用指标请见：**Google Scholar**：https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ
-- 如果你希望在这里展示“精选论文 3-5 篇”，把论文题目或 DOI 发我，我可以整理成更好看的列表（含链接与一句话摘要）。
+
+> 完整列表与引用信息：Google Scholar：https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ
+
+### 期刊论文
+1. **Foreign direct investment exerts heterogeneous impacts on the global ecosystem services values: Evidence from 62 countries globally**  
+   *Environmental Impact Assessment Review*, 115 (2025) 107973.  
+   Link: https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=sk1UDe8AAAAJ  
+   _Note: DOI/Publisher link pending (send it to me and I will add a direct DOI/ScienceDirect link)._ 
+
+2. **Research on the evolution characteristics, driving mechanisms and multi-scenario simulation of habitat quality in the Guangdong-Hong Kong-Macao Greater Bay based on multi-model coupling**  
+   *Science of the Total Environment* (2024).  
+   DOI: https://doi.org/10.1016/j.scitotenv.2024.171263
+
+3. **The Characteristics and Driving Factors of the Coastline Changes of Zhuhai Island Since 1986 / 1986年以来珠海市海岛海岸线变迁特征与驱动因素**  
+   *Tropical Geography* (2023).  
+   DOI: https://doi.org/10.13284/j.cnki.rddl.003684
+
+4. **The Temporal and Spatial Evolution Characteristics and Driving Factors of Surface Water in the Guangdong-Hong Kong-Macao Greater Bay Area Since 1985 / 1985年以来粤港澳大湾区地表水体时空演变特征与驱动因素**  
+   *Tropical Geography* (2023).  
+   DOI: https://doi.org/10.13284/j.cnki.rddl.003638
+
+5. **The Evolution Characteristics and Driving Mechanism of Urban Construction Land in Hong Kong since 1972**  
+   *Applied Sciences* (2023).  
+   DOI: https://doi.org/10.3390/app13042565
+
+6. **Habitat quality evolution characteristics and multi-scenario prediction in Shenzhen based on PLUS and InVEST models**  
+   *Frontiers in Environmental Science* (2023).  
+   DOI: https://doi.org/10.3389/fenvs.2023.1146347
+
+### 会议论文
+1. **The evolution characteristics of lakes in the Guangdong-Hong Kong-Macao greater Bay Area based on landsat data**  
+   *Proceedings of SPIE* (2024).  
+   DOI: https://doi.org/10.1117/12.3020853
+
 
 ## 合作与交流（Collaboration）
 - 生态系统服务评估、农产品贸易与隐含环境影响、远程耦合等方向欢迎交流合作。
